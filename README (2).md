@@ -193,7 +193,7 @@ pip install -r requirements.txt
 # Run the app locally
 streamlit run app/app.py
 ```
-
+Streamlit link: https://telcocustomerchurn-h2itkknxncwmjgfhmhlnf9.streamlit.app/
 ---
 
 ## 📈 Evaluation Criteria
