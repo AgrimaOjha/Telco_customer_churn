@@ -22,9 +22,9 @@ The core insight motivating this work: *replacing a lost customer costs exponent
 | Name | Role |
 | :--- | :--- |
 | Agrima Ojha | UI Development & Deployment |
-| Suhani Gupta | ML Pipeline & Feature Engineering |
+| Suhani Gupta | Data Preprocessing & GenAI Retention Agent |
 | Khyati Batra | Model Evaluation & Reporting |
-| Raghav Kaushal | Gen AI Integration & Retention Agent |
+| Raghav Kaushal | ML Pipeline & Feature Engineering |
 
 ---
 
@@ -193,9 +193,6 @@ pip install -r requirements.txt
 # Run the app locally
 streamlit run app/app.py
 ```
-
-> [!WARNING]
-> Localhost-only demonstrations will **not** be accepted for final submission. The application must be publicly hosted on Streamlit Cloud.
 
 ---
 
