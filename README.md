@@ -30,18 +30,17 @@ The core insight motivating this work: *replacing a lost customer costs exponent
 
 ## 🗂️ Repository Structure
 
-Telco_customer_churn/
+📦 Telco_customer_churn
  ┣ 📂 .devcontainer/
- ┃ ┗ 📄 devcontainer.json
+ ┃ ┗ 📄 devcontainer.json             # Dev container configuration
  ┣ 📂 data/
- ┃ ┗ 📄 Customer_Churn_Dataset.csv
- ┣ 📄 README.md
- ┣ 📄 app.py
- ┣ 📄 churn_model.pkl
- ┣ 📄 model_columns.pkl
+ ┃ ┗ 📄 Customer_Churn_Dataset.csv    # IBM Telco dataset (Kaggle)
+ ┣ 📄 app.py                          # Streamlit application
+ ┣ 📄 churn_model.pkl                 # Trained XGBoost model
+ ┣ 📄 model_columns.pkl               # Feature columns for inference
+ ┣ 📄 telco_xgboost.ipynb             # Full ML pipeline notebook
  ┣ 📄 requirements.txt
- ┣ 📄 telco_xgboost.ipynb
-
+ ┗ 📄 README.md
 
 ---
 
